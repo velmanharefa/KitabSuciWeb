@@ -19,6 +19,9 @@ Route::get('/', function () {
 Route::get('/homepage', function () {
     return view('homepage');
 });
+Route::get('/login', function () {
+    return view('login');
+});
 Route::get('/scripture', function () {
     return view('scripture');
 });
@@ -31,3 +34,4 @@ Route::get('/aboutUs', function () {
 Route::get('/dashboard', function () {
     return view('/dashboard/dashboard');
 });
+
