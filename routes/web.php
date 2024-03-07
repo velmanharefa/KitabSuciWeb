@@ -22,6 +22,12 @@ Route::get('/landingPage', function () {
 Route::get('/login', function () {
     return view('login');
 });
+Route::get('/signUp', function () {
+    return view('signUp');
+});
+Route::get('/changePass', function () {
+    return view('changePass');
+});
 Route::get('/scripture', function () {
     return view('scripture');
 });

@@ -109,7 +109,7 @@
     text-decoration: none;
 }
 
-.email, .password{
+.email, .password, .nickname{
     padding-left: 2rem;
 }
 
@@ -130,4 +130,11 @@
 
 .login_right span {
     line-height: 80px;
+}
+
+.textPass p{
+    font-size: 10px;
+    line-height: 15px;
+    color: #ABABAB;
+    text-align: start;
 }
