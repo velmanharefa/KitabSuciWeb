@@ -23,39 +23,60 @@
 </head>
 <body>
 
-    <section class="login">
-        <div class="container border border-danger my-5">
+    <section class="loginPage">
+        <div class="container  my-5">
             <div class="row">
-                <div class="col-sm-6 border border-danger">
+                <div class="col-sm-6 login_left d-flex flex-column justify-content-center ">
+                    <a href="#" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-arrow-left my-5" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+                        </svg>
+                    </a>
                     <p>
                         Welcome <span>Back Friends!</span> <br>
                         <span2>Jangan lupakan ibadah dengan membaca kitab</span>
                     </p>
                     <div class="textfield">
                         <span class="input-Email">
-                            <input class="form-control Email my-3" type="text" name="Email" id="Email" placeholder="Email/username">
+                            <input class="form-control email my-3" type="text" name="Email" id="Email" placeholder="Email/username">
                         </span>
 
-                        <span class="input-Email">
-                            <input class="form-control Email" type="text" name="Email" id="Email" placeholder="Password">
+                        <span class="input-Password">
+                            <input class="form-control password" type="text" name="Email" id="Email" placeholder="Password">
                         </span>
                     </div>
-                    <div class="forgotPass text-end">
+                    <div class="forgotPass text-end my-2 mx-4">
                         <a href="#">Forgot Password?</a>
                     </div>
-                    <div class="btn">
-                        <button class="btn" data-bs-target="#" data-bs-toggle="modal" type="submit" style="background-color: #33D8D8; color: #FFFFFF;">Login</button>
-                        <img src="./images/google.png" alt="">
+                    <button class="btn my-4" data-bs-target="#" data-bs-toggle="modal" type="submit">Login</button>
+                    <div class="row justify-content-center my-3">
+                        <div class="col-5">
+                            <hr>
+                        </div>
+                        <div class="col-1">
+                            <p style="font-size: 14px; color:#7D7D7D;">OR</p>
+                        </div>
+                        <div class="col-5">
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="googlePic d-flex justify-content-center my-2">
+                        <a href=""><img src="./images/google.png" alt=""></a>
+                    </div>
+                    <div class="btnRegris my-5">
+                        <p>Become Member? <span><a href="#">Register now</a></span></p>
                     </div>
 
-
                 </div>
-                <div class="col-sm-6 border border-danger">
+                <div class="col-sm-6 login_right d-flex flex-column justify-content-center">
                     <img src="images/loginpic.png" alt="" />
-                    <p>“Lebih baik kehilangan sesuatu demi Tuhan. Daripada kehilangan Tuhan demi sesuatu” <br>
-                        <span>Mufti Menk</span>
-                    </p>
+                    <div class="text-center">
+                        <p>“Lebih baik kehilangan sesuatu demi Tuhan. Daripada kehilangan Tuhan demi sesuatu” <br>
+                            <span><b>Mufti Menk</b></span>
+                        </p>
+                    </div>
                 </div>
+                
 
             </div>
         </div>
