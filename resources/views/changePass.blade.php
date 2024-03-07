@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>LoginPage</title>
+    <title>Change Password</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,11 +38,11 @@
                     </p>
                     <div class="textfield">
                         <span class="input-Email">
-                            <input class="form-control email my-3" type="text" name="Email" id="Email" placeholder="New Password">
+                            <input class="form-control email my-3" type="password" name="Email" id="Email" placeholder="New Password">
                         </span>
 
                         <span class="input-Password">
-                            <input class="form-control password" type="text" name="Email" id="Email" placeholder="Confirm Password">
+                            <input class="form-control password" type="password" name="Email" id="Email" placeholder="Confirm Password">
                         </span>
                     </div>
                     <div class="textPass text-end my-2 mx-4">

@@ -50,7 +50,7 @@
                         </span>
 
                         <span class="input-Password">
-                            <input class="form-control password" type="text" name="Email" id="Email" placeholder="Password">
+                            <input class="form-control password" type="password" name="Email" id="Email" placeholder="Password">
                         </span>
                     </div>
                     <div class="textPass my-2 mx-4">
