@@ -27,7 +27,7 @@
         <div class="container  my-5">
             <div class="row">
                 <div class="col-sm-6 login_left d-flex flex-column justify-content-center ">
-                    <a href="#" >
+                    <a href="{{ url('/landingPage') }}" >
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-arrow-left my-5" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
                         </svg>
@@ -50,9 +50,9 @@
                         </span>
                     </div>
                     <div class="forgotPass text-end my-2 mx-4">
-                        <a href="#">Forgot Password?</a>
+                        <a href="{{ url('/changePass') }}">Forgot Password?</a>
                     </div>
-                    <button class="btn my-4" data-bs-target="#" data-bs-toggle="modal" type="submit">Login</button>
+                    <a class="btn longBtn my-4" data-bs-target="#" data-bs-toggle="modal" type="submit">Login</a>
                     <div class="row justify-content-center my-3">
                         <div class="col-5">
                             <hr>
@@ -68,7 +68,7 @@
                         <a href=""><img src="./images/google.png" alt=""></a>
                     </div>
                     <div class="btnRegris my-5">
-                        <p>Become Member? <span><a href="#">Register now</a></span></p>
+                        <p>Become Member? <span><a href="{{ url('/signUp') }}">Register now</a></span></p>
                     </div>
 
                 </div>

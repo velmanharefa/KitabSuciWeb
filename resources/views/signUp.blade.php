@@ -56,7 +56,7 @@
                     <div class="textPass my-2 mx-4">
                         <p>Your password must be 8-20 characters long, contain letters and number, and must not contain spaces, special character, or emoji.</p>
                     </div>
-                    <button class="btn my-4" data-bs-target="#" data-bs-toggle="modal" type="submit">Sign-Up</button>
+                    <a class="btn longBtn my-4" data-bs-target="#" data-bs-toggle="modal" type="submit">Sign-Up</a>
                     <div class="row justify-content-center my-3">
                         <div class="col-5">
                             <hr>
@@ -72,7 +72,7 @@
                         <a href=""><img src="./images/google.png" alt=""></a>
                     </div>
                     <div class="btnRegris my-5">
-                        <p>Have an account <span><a href="#">Login now</a></span></p>
+                        <p>Have an account <span><a href="{{ url('/login') }}">Login now</a></span></p>
                     </div>
 
                 </div>

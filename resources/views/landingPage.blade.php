@@ -26,13 +26,13 @@
   <section class="header">
     <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
       <div class="container">
-        <a1 class="navbar-brand" href="#">KitabSuci</a1>
+        <a1 class="navbar-brand" href="{{ url('/landingPage') }}">KitabSuci</a1>
         <div class="collapse navbar-collapse navText" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto  login">
             <a class="nav-link" aria-current="page" href="#">Home</a>
             <a class="nav-link" aria-current="page"  href="#">Scripture</a>
             <a class="nav-link" aria-current="page" href="#">Contact</a>
-            <button class="border" href="#">Login</button>
+            <a class="border buttonLgn btn btn-primary" style="color: #FFFFFF" href="{{ url('/login') }}">Login</a>
           </div>
         </div>
       </div>

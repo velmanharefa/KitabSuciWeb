@@ -96,12 +96,20 @@
     height: 55px;
 }
 
-.loginPage button{
+.buttonLgn{
+    background-color: #33D8D8;
+    border-radius: 5px;
+    width: 117px;
+    font-size: 21px;
+}
+
+.longBtn{
     background-color: #33D8D8;
     color: #FFFFFF;
     border-radius: 201px;
     height: 55px;
     font-size: 21px;
+    text-align: center;
 }
 
 .forgotPass a{
@@ -138,3 +146,5 @@
     color: #ABABAB;
     text-align: start;
 }
+
+

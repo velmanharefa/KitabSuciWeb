@@ -48,10 +48,10 @@
                     <div class="textPass text-end my-2 mx-4">
                         <p>Your password must be 8-20 characters long, contain letters and number, and must not contain spaces, special character, or emoji.</p>
                     </div>
-                    <button class="btn my-4" data-bs-target="#" data-bs-toggle="modal" type="submit">Change Password</button>
+                    <a class="btn longBtn my-4" data-bs-target="#" data-bs-toggle="modal" type="submit">Change Password</a>
                     
                     <div class="btnRegris my-5">
-                        <p>Remember your pass? <span><a href="#">Login now</a></span></p>
+                        <p>Remember your pass? <span><a href="{{ url('/login') }}">Login now</a></span></p>
                     </div>
 
                 </div>
