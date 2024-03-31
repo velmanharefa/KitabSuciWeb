@@ -28,6 +28,9 @@ Route::get('/signUp', function () {
 Route::get('/changePass', function () {
     return view('changePass');
 });
+Route::get('/kitab', function () {
+    return view('kitab');
+});
 Route::get('/scripture', function () {
     return view('scripture');
 });
