@@ -174,3 +174,8 @@
     padding-right: 10px; 
 }
 
+.list-group-item{
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
