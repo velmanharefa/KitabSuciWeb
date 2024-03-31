@@ -25,7 +25,7 @@
     <section class="header">
         <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
             <div class="container">
-            <a1 class="navbar-brand" href="{{ url('/landingPage') }}">KitabSuci</a1>
+            <a1 class="navbar-brand" href="{{ url('/landingPage') }}">Kitab<span style="color: #33D8D8; font-weight:600">Suci</span></a1>
             <div class="collapse navbar-collapse navText" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto login justify-content-end">
                     <div class="menu d-flex mx-5">
@@ -212,7 +212,7 @@
                         </div>
                     </div>
 
-                    <div class="row" style="max-height:58vh; overflow-y: auto; padding-right: 10px" id="scrollContainer">
+                    <div class="row " style="max-height:58vh; overflow-y: auto; padding-right: 10px" id="scrollContainer">
                         
                         <div class="text_kitab p-3 border border-black" style="border-radius: 10px" id="content1"> 
                             <h1 style="font-size: 32px;">1</h1>
@@ -259,15 +259,18 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const dropdownItemsNumber = document.querySelectorAll('.dropdown-menu#w-100 .dropdown-item');
-            const dropdownMenuButtonNumber = document.getElementById('dropdownMenuButtonNumber');
+    const dropdownItemsNumber = document.querySelectorAll('.dropdown-menu#w-100 .dropdown-item');
+    const dropdownMenuButtonNumber = document.getElementById('dropdownMenuButtonNumber');
 
             dropdownItemsNumber.forEach(item => {
                 item.addEventListener('click', function() {
+                    // Menghapus kelas active dari semua item dropdown number
                     dropdownItemsNumber.forEach(item => {
                         item.classList.remove('active');
                     });
+                    // Menambahkan kelas active ke item dropdown number yang baru dipilih
                     this.classList.add('active');
+                    // Memperbarui teks pada tombol toggle dropdown number
                     const selectedValue = this.getAttribute('data-value');
                     dropdownMenuButtonNumber.textContent = selectedValue;
                 });
@@ -277,6 +280,13 @@
 
             dropdownItemsText.forEach(item => {
                 item.addEventListener('click', function() {
+                    // Menghapus kelas active dari semua item dropdown text
+                    dropdownItemsText.forEach(item => {
+                        item.classList.remove('active');
+                    });
+                    // Menambahkan kelas active ke item dropdown text yang baru dipilih
+                    this.classList.add('active');
+                    // Memperbarui teks pada tombol toggle dropdown text
                     const selectedValue = this.getAttribute('data-value');
                     this.closest('.dropdown').querySelector('.dropdown-toggle').textContent = selectedValue;
                 });
