@@ -37,8 +37,11 @@ Route::get('/scripture', function () {
 Route::get('/record', function () {
     return view('record');
 });
-Route::get('/aboutUs', function () {
-    return view('aboutUs');
+Route::get('/favorite', function () {
+    return view('favorite');
+});
+Route::get('/contact', function () {
+    return view('contact');
 });
 Route::get('/dashboard', function () {
     return view('/dashboard/dashboard');
