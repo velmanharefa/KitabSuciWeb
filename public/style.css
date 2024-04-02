@@ -148,6 +148,11 @@
     text-align: start;
 }
 
+.contact a{
+    color: #111111;
+    text-decoration: none;
+}
+
 /* Lebar scrollbar */
 ::-webkit-scrollbar {
     width: 8px; /* Atur lebar scrollbar sesuai keinginan */
