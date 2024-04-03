@@ -45,11 +45,11 @@
     <section class="content">
         <div class="container">
             <div class="row my-4 p-2 justify-content-center">
-                <h1 style="text-align: center; font-size: 48px; font-weight:600">
+                <h1 class="my-3" style="text-align: center; font-size: 48px; font-weight:600">
                     Hello👋, kami dari tim Kitab<span style="color:#33D8D8">Suci</span> 
                 </h1>
                 <img src="./images/toleran.png" alt="" style="width: 450px; height: 382px">
-                <a class=" my-3" style="text-align: center; text-decoration:none; color:black;">
+                <a class=" my-4" style="text-align: center; text-decoration:none; color:black;">
                     Aplikasi ini dikembangkan atas keinginan tim Kitab Suci untuk menyatukan semua kitab suci agama yang ada di Indonesia menjadi satu aplikasi yang user-friendly dan dapat diakses dengan mudah kapan saja. Kami mengucapkan terima kasih kepada semua pihak yang turut serta dalam pembuatan aplikasi ini sehingga dapat berfungsi dengan baik. Tim Kitab Suci berkomitmen untuk terus mengembangkan dan memperbarui aplikasi agar tetap relevan dan nyaman digunakan, terima kasih.
                 </a>
                 {{-- <h1 style="text-align: center; font-size: 48px; font-weight:500" > Our Contact</h1> --}}
@@ -102,8 +102,7 @@
     </section>
 
     <section class="footer">
-        <div class="footer-content" style="margin-top: 4rem">
-            <hr />
+        <div class="footer-content border-top">
             <p style="text-align: center">&copy; Copyright KitabSuci. Made by Kelompok 7 ABP</p>
         </div>
     </section>

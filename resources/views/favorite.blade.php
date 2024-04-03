@@ -51,8 +51,12 @@
         <div class="offcanvas-body">
             <form>
                 <div class="mb-3">
-                    <label for="name" class="form-label">Nama</label>
+                    <label for="name" class="form-label">Name</label>
                     <input type="text" class="form-control" id="name" placeholder="Masukkan nama" value="Velman Harefa" readonly>
+                </div>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nickname</label>
+                    <input type="text" class="form-control" id="name" placeholder="Masukkan nama" value="Velman" readonly>
                 </div>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
@@ -233,8 +237,7 @@
 
 
     <section class="footer">
-        <div class="footer-content">
-            <hr />
+        <div class="footer-content border-top">
             <p style="text-align: center">&copy; Copyright KitabSuci. Made by Kelompok 7 ABP</p>
         </div>
     </section>

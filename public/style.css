@@ -209,3 +209,13 @@
 #heart-icon {
     filter: drop-shadow(0 0 0.1rem black); /* Adjust the shadow size as needed */
 }
+
+.footer-content {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Ubah warna latar belakang sesuai kebutuhan */
+    padding: 10px 0; /* Sesuaikan padding atas dan bawah sesuai kebutuhan */
+    text-align: center;
+    border-top: 1px solid #e9ecef; /* Garis atas footer */
+}
