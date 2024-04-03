@@ -30,7 +30,7 @@
                 <div class="navbar-nav ms-auto login justify-content-end">
                     <div class="menu d-flex mx-5">
                         <a class="nav-link" id="home-link" href="{{ url('/landingPage') }}">Home</a>
-                        <a class="nav-link" id="scripture-link" href="{{ url('/kitab') }}">Scripture</a>
+                        <a class="nav-link" id="scripture-link" href="{{ url('/scripture') }}">Scripture</a>
                         <a class="nav-link active" id="favorite-link" href="{{ url('/favorite') }}">Favorite</a>
                         <a class="nav-link" id="contact-link" href="{{ url('/contact') }}">Contact</a>
                     </div>

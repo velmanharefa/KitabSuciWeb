@@ -30,7 +30,7 @@
                 <div class="navbar-nav ms-auto login justify-content-end">
                     <div class="menu d-flex mx-5">
                         <a class="nav-link" id="home-link" href="{{ url('/landingPage') }}">Home</a>
-                        <a class="nav-link active" id="scripture-link" href="{{ url('/kitab') }}">Scripture</a>
+                        <a class="nav-link active" id="scripture-link" href="{{ url('/scripture') }}">Scripture</a>
                         <a class="nav-link" id="favorite-link" href="{{ url('/favorite') }}">Favorite</a>
                         <a class="nav-link" id="contact-link" href="{{ url('/contact') }}">Contact</a>
                     </div>
@@ -45,13 +45,60 @@
     <section class="content">
         <div class="container">
             <div class="row">
-                
+                <a href="{{ url('/kitab') }}" style="text-decoration: none;">
+                    <div class="col-sm-12 my-3 d-flex justify-content-center border" style="border-radius:10px; height: 7rem; background-color:#222831; color:#FFFFFF;">
+                        <div class=" d-flex flex-column justify-content-center align-items-center" style="text-align: center;">
+                            <h1 class="m-0" style="font-size: 38px; text-align:center">Kristen</h1>
+                            <p class="m-0" style="font-size: 20px; line-height: 1; text-align:center"><i>Alkitab</i></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="row">
+                <a href="#" style="text-decoration: none;">
+                    <div class="col-sm-12 my-2 d-flex justify-content-center border" style="border-radius:10px; height: 7rem; background-color:#222831; color:#FFFFFF;">
+                        <div class=" d-flex flex-column justify-content-center align-items-center" style="text-align: center;">
+                            <h1 class="m-0" style="font-size: 38px; text-align:center">Islam</h1>
+                            <p class="m-0" style="font-size: 20px; line-height: 1; text-align:center"><i>Al-Qur'an</i></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="row">
+                <a href="#" style="text-decoration: none;">
+                    <div class="col-sm-12 my-2 d-flex justify-content-center border" style="border-radius:10px; height: 7rem; background-color:#222831; color:#FFFFFF;">
+                        <div class=" d-flex flex-column justify-content-center align-items-center" style="text-align: center;">
+                            <h1 class="m-0" style="font-size: 38px; text-align:center">Hindu</h1>
+                            <p class="m-0" style="font-size: 20px; line-height: 1; text-align:center"><i>Weda</i></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="row">
+                <a href="#" style="text-decoration: none;">
+                    <div class="col-sm-12 my-2 d-flex justify-content-center border" style="border-radius:10px; height: 7rem; background-color:#222831; color:#FFFFFF;">
+                        <div class=" d-flex flex-column justify-content-center align-items-center" style="text-align: center;">
+                            <h1 class="m-0" style="font-size: 38px; text-align:center">Buddha</h1>
+                            <p class="m-0" style="font-size: 20px; line-height: 1; text-align:center"><i>Tipitaka</i></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="row">
+                <a href="#" style="text-decoration: none;">
+                    <div class="col-sm-12 my-2 d-flex justify-content-center border" style="border-radius:10px; height: 7rem; background-color:#222831; color:#FFFFFF;">
+                        <div class=" d-flex flex-column justify-content-center align-items-center" style="text-align: center;">
+                            <h1 class="m-0" style="font-size: 38px; text-align:center">Konghucu</h1>
+                            <p class="m-0" style="font-size: 20px; line-height: 1; text-align:center"><i>Shishu Wujing</i></p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
 
     <section class="footer">
-        <div class="footer-content">
+        <div class="footer-content" style="margin-top: 8rem">
             <hr />
             <p style="text-align: center">&copy; Copyright KitabSuci. Made by Kelompok 7 ABP</p>
         </div>
