@@ -44,7 +44,7 @@
 
     <section class="content">
         <div class="container">
-            <div class="row my-2 p-2 justify-content-center">
+            <div class="row my-4 p-2 justify-content-center">
                 <h1 style="text-align: center; font-size: 48px; font-weight:600">
                     Hello👋, kami dari Kitab<span style="color:#33D8D8">Suci</span> 
                 </h1>
@@ -52,7 +52,7 @@
                 <a class=" my-3" style="text-align: center; text-decoration:none; color:black;">
                     Aplikasi ini dikembangkan atas keinginan tim Kitab Suci untuk menyatukan semua kitab suci agama yang ada di Indonesia menjadi satu aplikasi yang user-friendly dan dapat diakses dengan mudah kapan saja. Kami mengucapkan terima kasih kepada semua pihak yang turut serta dalam pembuatan aplikasi ini sehingga dapat berfungsi dengan baik. Tim Kitab Suci berkomitmen untuk terus mengembangkan dan memperbarui aplikasi agar tetap relevan dan nyaman digunakan, terima kasih.
                 </a>
-                <h1 style="text-align: center; font-size: 48px; font-weight:500" > Our Contact</h1>
+                {{-- <h1 style="text-align: center; font-size: 48px; font-weight:500" > Our Contact</h1> --}}
                 <div class="row contact">
                     <div class="col-sm-6 d-flex justify-content-center align-items-center">
                         <div class="col-sm-9">
@@ -102,7 +102,7 @@
     </section>
 
     <section class="footer">
-        <div class="footer-content">
+        <div class="footer-content" style="margin-top: 4rem">
             <hr />
             <p style="text-align: center">&copy; Copyright KitabSuci. Made by Kelompok 7 ABP</p>
         </div>
@@ -111,4 +111,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
 </body>
-</html>
+</html> 

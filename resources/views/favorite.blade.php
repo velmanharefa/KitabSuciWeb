@@ -172,8 +172,8 @@
                 <div class="col-sm-9 d-flex flex-column">
                     <div class="row border border-black" style="border-radius: 10px">
                         <div class="text p-3">
-                            <h1 style="font-size: 32px;">Kejadian</h1>
-                            <p style="font-size: 16px; line-height: 1;">Perjanjian lama</p>
+                            <h1 style="font-size: 32px;">Favorite</h1>
+                            <p style="font-size: 16px; line-height: 1;">5 Favorites</p>
                             <div id="scrollProgressBarBackground" style="position: absolute; top: 0; left: 0; width: 0%; height: 10px; background-color: #0000; border-radius: 10px;"></div>
                             <div id="scrollProgressBar" style="width: 0%; height: 10px; background-color: #33D8D8; border-radius:10px"></div>
                         </div>
@@ -219,30 +219,7 @@
                             <h1 style="font-size: 32px;">1</h1>
                             <p style="font-size: 16px; line-height: 1.2;">Pada mulanya Allah menciptakan langit dan bumi.</p>
                         </div>
-                        <div class="text_kitab p-3 my-2 border border-black" style="border-radius: 10px" id="content2">
-                            <h1 style="font-size: 32px;">2</h1>
-                            <p style="font-size: 16px; line-height: 1.2;">Bumi belum berbentuk dan kosong; gelap gulita menutupi samudera raya, dan Roh Allah melayang-layang di atas permukaan air.</p>
-                        </div>
-                        <div class="text_kitab p-3 my-2 border border-black" style="border-radius: 10px" id="content3">
-                            <h1 style="font-size: 32px;">3</h1>
-                            <p style="font-size: 16px; line-height: 1.2;">Berfirmanlah Allah: "Jadilah terang." Lalu terang itu jadi.</p>
-                        </div>
-                        <div class="text_kitab p-3 my-2 border border-black" style="border-radius: 10px" id="content4">
-                            <h1 style="font-size: 32px;">4</h1>
-                            <p style="font-size: 16px; line-height: 1.2;">Allah melihat bahwa terang itu baik, lalu dipisahkan-Nyalah terang itu dari gelap.</p>
-                        </div>
-                        <div class="text_kitab p-3 my-2 border border-black" style="border-radius: 10px" id="content5">
-                            <h1 style="font-size: 32px;">5</h1>
-                            <p style="font-size: 16px; line-height: 1.2;">Dan Allah menamai terang itu siang, dan gelap itu malam. Jadilah petang dan jadilah pagi, itulah hari pertama.</p>
-                        </div>
-                        <div class="text_kitab p-3 my-2 border border-black" style="border-radius: 10px">
-                            <h1 style="font-size: 32px;">6</h1>
-                            <p style="font-size: 16px; line-height: 1.2;">Berfirmanlah Allah: "Jadilah cakrawala di tengah segala air untuk memisahkan air dari air."</p>
-                        </div>
-                        <div class="text_kitab p-3 my-2 border border-black" style="border-radius: 10px" id="content7">
-                            <h1 style="font-size: 32px;">7</h1>
-                            <p style="font-size: 16px; line-height: 1.2;">Maka Allah menjadikan cakrawala dan Ia memisahkan air yang ada di bawah cakrawala itu dari air yang ada di atasnya. Dan jadilah demikian.</p>
-                        </div>
+                    
                     </div>
                 </div>
             </div>

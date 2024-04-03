@@ -73,12 +73,12 @@
           </div>
           <div class="col-sm-4">
             <p>Aplikasi Agama <br>
-              <span>Terlengkap</span>
+              <span>Terpercaya</span>
             </p>  
           </div>
           <div class="col-sm-4">
             <p>Aplikasi Agama <br>
-              <span>Terlengkap</span>
+              <span>Terpraktis</span>
             </p>
           </div>
         </div>
