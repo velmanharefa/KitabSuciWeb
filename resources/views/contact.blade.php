@@ -29,10 +29,10 @@
             <div class="collapse navbar-collapse navText" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto login justify-content-end">
                     <div class="menu d-flex mx-5">
-                        <a class="nav-link" aria-current="page" href="{{ url('/landingPage') }}">Home</a>
-                        <a class="nav-link" aria-current="page"  href="{{ url('/kitab') }}">Scripture</a>
-                        <a class="nav-link" aria-current="page"  href="{{ url('/favorite') }}">Favorite</a>
-                        <a class="nav-link" aria-current="page" href="{{ url('/contact') }}">Contact</a>
+                        <a class="nav-link" id="home-link" href="{{ url('/landingPage') }}">Home</a>
+                        <a class="nav-link" id="scripture-link" href="{{ url('/kitab') }}">Scripture</a>
+                        <a class="nav-link" id="favorite-link" href="{{ url('/favorite') }}">Favorite</a>
+                        <a class="nav-link active" id="contact-link" href="{{ url('/contact') }}">Contact</a>
                     </div>
                     <input class="form-control search w-25" type="text" name="search" id="search" placeholder="Search">
                     <a class="border buttonLgn btn btn-primary mx-3" style="color: #FFFFFF" href="{{ url('/login') }}">Login</a>
@@ -46,7 +46,7 @@
         <div class="container">
             <div class="row my-4 p-2 justify-content-center">
                 <h1 style="text-align: center; font-size: 48px; font-weight:600">
-                    Hello👋, kami dari Kitab<span style="color:#33D8D8">Suci</span> 
+                    Hello👋, kami dari tim Kitab<span style="color:#33D8D8">Suci</span> 
                 </h1>
                 <img src="./images/toleran.png" alt="" style="width: 450px; height: 382px">
                 <a class=" my-3" style="text-align: center; text-decoration:none; color:black;">
@@ -60,7 +60,7 @@
                         </div>
                         <div class="col-sm-3">
                             <a class="mx-1" style="text-align:right" href="https://wa.me/6283119266160">
-                                083119266160
+                                <i>083119266160</i>
                             </a>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                         </div>
                         <div class="col-sm-11">
                             <a class="mx-1" style="text-align:left" href="#">
-                                kitabsuci@gmail.com
+                                <i>kitabsuci@gmail.com</i>
                             </a>
                         </div>
                     </div>
@@ -82,7 +82,7 @@
                         </div>
                         <div class="col-sm-3">
                             <a class="mx-1" style="text-align:right" href="#">
-                                &commat;kitabsuci
+                                <i>&commat;kitabsuci</i>
                             </a>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
                         </div>
                         <div class="col-sm-11">
                             <a class="mx-1" style="text-align:left" href="#">
-                                &commat;kitabsuci
+                                <i>&commat;kitabsuci</i>
                             </a>
                         </div>
                     </div>
@@ -108,6 +108,7 @@
         </div>
     </section>
 
+    <script src="./main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
 </body>

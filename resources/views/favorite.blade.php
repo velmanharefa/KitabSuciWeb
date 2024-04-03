@@ -29,10 +29,10 @@
             <div class="collapse navbar-collapse navText" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto login justify-content-end">
                     <div class="menu d-flex mx-5">
-                        <a class="nav-link" aria-current="page" href="{{ url('/landingPage') }}">Home</a>
-                        <a class="nav-link" aria-current="page"  href="{{ url('/kitab') }}">Scripture</a>
-                        <a class="nav-link" aria-current="page"  href="{{ url('/favorite') }}">Favorite</a>
-                        <a class="nav-link" aria-current="page" href="{{ url('/contact') }}">Contact</a>
+                        <a class="nav-link" id="home-link" href="{{ url('/landingPage') }}">Home</a>
+                        <a class="nav-link" id="scripture-link" href="{{ url('/kitab') }}">Scripture</a>
+                        <a class="nav-link active" id="favorite-link" href="{{ url('/favorite') }}">Favorite</a>
+                        <a class="nav-link" id="contact-link" href="{{ url('/contact') }}">Contact</a>
                     </div>
                     <input class="form-control search w-25" type="text" name="search" id="search" placeholder="Search">
                     <a class="border buttonLgn btn btn-primary mx-3" style="color: #FFFFFF" href="{{ url('/login') }}">Login</a>
@@ -48,118 +48,121 @@
                 <div class="col-sm-3 d-flex flex-column justify-content-center">
                     <div style="max-height:80vh; overflow-y: auto;">
                         <ol class="list-group">
+                            <li class="list-group-item d-flex justify-content-center align-items-center my-1 favorite" style="border-radius: 10px; position: sticky; top: 0; z-index: 1; height: 120px; background-color:#222831; color:#FFFFFF;">
+                                <div class=" d-flex flex-column justify-content-center align-items-center" style="text-align: center">
+                                    <h1 class="m-0" style="font-size: 32px; text-align:center">Favorite</h1>
+                                    <p class="m-0" style="font-size: 16px; line-height: 1; text-align:center"><i>5 Favorites</i></p>
+                                </div>
+                            </li>
                             <a href="#" style="text-decoration: none">
-                                <li class="list-group-item d-flex align-items-center my-1 border border-black" style="border-radius: 10px">
+                                <li class="list-group-item d-flex align-items-center my-1 border" style="border-radius: 10px; z-index: 0;">
                                     <div class="ms-2 me-auto">
                                         <div class="fw-bold">Kejadian</div>
-                                        50 pasal, 1533 ayat
+                                        Pasal 1, Ayat 1
                                     </div>
                                 </li>
                             </a>
                             <a href="#" style="text-decoration: none">
-                                <li class="list-group-item d-flex align-items-center my-1 border border-black" style="border-radius: 10px">
+                                <li class="list-group-item d-flex align-items-center my-1 border" style="border-radius: 10px">
                                     <div class="ms-2 me-auto">
                                         <div class="fw-bold">Keluaran</div>
-                                        40 pasal, 1213 ayat
-                                    </div>
-                                </li>
-                            </a>
-                            
-                            <a href="#" style="text-decoration: none">
-                                <li class="list-group-item d-flex align-items-center my-1 border border-black" style="border-radius: 10px">
-                                    <div class="ms-2 me-auto">
-                                        <div class="fw-bold">Keluaran</div>
-                                        40 pasal, 1213 ayat
+                                        Pasal 2, Ayat 24
                                     </div>
                                 </li>
                             </a>
                             
                             <a href="#" style="text-decoration: none">
-                                <li class="list-group-item d-flex align-items-center my-1 border border-black" style="border-radius: 10px">
+                                <li class="list-group-item d-flex align-items-center my-1 border" style="border-radius: 10px">
                                     <div class="ms-2 me-auto">
                                         <div class="fw-bold">Keluaran</div>
-                                        40 pasal, 1213 ayat
+                                        Pasal 2, Ayat 24
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="#" style="text-decoration: none">
+                                <li class="list-group-item d-flex align-items-center my-1 border" style="border-radius: 10px">
+                                    <div class="ms-2 me-auto">
+                                        <div class="fw-bold">Keluaran</div>
+                                        Pasal 2, Ayat 24
                                     </div>
                                 </li>
                             </a>
                             
                             <a href="#" style="text-decoration: none">
-                                <li class="list-group-item d-flex align-items-center my-1 border border-black" style="border-radius: 10px">
+                                <li class="list-group-item d-flex align-items-center my-1 border" style="border-radius: 10px">
                                     <div class="ms-2 me-auto">
                                         <div class="fw-bold">Keluaran</div>
-                                        40 pasal, 1213 ayat
+                                        Pasal 2, Ayat 24
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="#" style="text-decoration: none">
+                                <li class="list-group-item d-flex align-items-center my-1 border" style="border-radius: 10px">
+                                    <div class="ms-2 me-auto">
+                                        <div class="fw-bold">Keluaran</div>
+                                        Pasal 2, Ayat 24
                                     </div>
                                 </li>
                             </a>
                             
                             <a href="#" style="text-decoration: none">
-                                <li class="list-group-item d-flex align-items-center my-1 border border-black" style="border-radius: 10px">
+                                <li class="list-group-item d-flex align-items-center my-1 border" style="border-radius: 10px">
                                     <div class="ms-2 me-auto">
                                         <div class="fw-bold">Keluaran</div>
-                                        40 pasal, 1213 ayat
+                                        Pasal 2, Ayat 24
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="#" style="text-decoration: none">
+                                <li class="list-group-item d-flex align-items-center my-1 border" style="border-radius: 10px">
+                                    <div class="ms-2 me-auto">
+                                        <div class="fw-bold">Keluaran</div>
+                                        Pasal 2, Ayat 24
                                     </div>
                                 </li>
                             </a>
                             
                             <a href="#" style="text-decoration: none">
-                                <li class="list-group-item d-flex align-items-center my-1 border border-black" style="border-radius: 10px">
+                                <li class="list-group-item d-flex align-items-center my-1 border" style="border-radius: 10px">
                                     <div class="ms-2 me-auto">
                                         <div class="fw-bold">Keluaran</div>
-                                        40 pasal, 1213 ayat
+                                        Pasal 2, Ayat 24
+                                    </div>
+                                </li>
+                            </a>
+
+                            <a href="#" style="text-decoration: none">
+                                <li class="list-group-item d-flex align-items-center my-1 border" style="border-radius: 10px">
+                                    <div class="ms-2 me-auto">
+                                        <div class="fw-bold">Keluaran</div>
+                                        Pasal 2, Ayat 24
                                     </div>
                                 </li>
                             </a>
                             
                             <a href="#" style="text-decoration: none">
-                                <li class="list-group-item d-flex align-items-center my-1 border border-black" style="border-radius: 10px">
+                                <li class="list-group-item d-flex align-items-center my-1 border" style="border-radius: 10px">
                                     <div class="ms-2 me-auto">
                                         <div class="fw-bold">Keluaran</div>
-                                        40 pasal, 1213 ayat
+                                        Pasal 2, Ayat 24
+                                    </div>
+                                </li>
+                            </a>
+
+                            <a href="#" style="text-decoration: none">
+                                <li class="list-group-item d-flex align-items-center my-1 border" style="border-radius: 10px">
+                                    <div class="ms-2 me-auto">
+                                        <div class="fw-bold">Keluaran</div>
+                                        Pasal 2, Ayat 24
                                     </div>
                                 </li>
                             </a>
                             
                             <a href="#" style="text-decoration: none">
-                                <li class="list-group-item d-flex align-items-center my-1 border border-black" style="border-radius: 10px">
+                                <li class="list-group-item d-flex align-items-center my-1 border" style="border-radius: 10px">
                                     <div class="ms-2 me-auto">
                                         <div class="fw-bold">Keluaran</div>
-                                        40 pasal, 1213 ayat
-                                    </div>
-                                </li>
-                            </a>
-                            
-                            <a href="#" style="text-decoration: none">
-                                <li class="list-group-item d-flex align-items-center my-1 border border-black" style="border-radius: 10px">
-                                    <div class="ms-2 me-auto">
-                                        <div class="fw-bold">Keluaran</div>
-                                        40 pasal, 1213 ayat
-                                    </div>
-                                </li>
-                            </a>
-                            
-                            <a href="#" style="text-decoration: none">
-                                <li class="list-group-item d-flex align-items-center my-1 border border-black" style="border-radius: 10px">
-                                    <div class="ms-2 me-auto">
-                                        <div class="fw-bold">Keluaran</div>
-                                        40 pasal, 1213 ayat
-                                    </div>
-                                </li>
-                            </a>
-                            
-                            <a href="#" style="text-decoration: none">
-                                <li class="list-group-item d-flex align-items-center my-1 border border-black" style="border-radius: 10px">
-                                    <div class="ms-2 me-auto">
-                                        <div class="fw-bold">Keluaran</div>
-                                        40 pasal, 1213 ayat
-                                    </div>
-                                </li>
-                            </a>
-                            
-                            <a href="#" style="text-decoration: none">
-                                <li class="list-group-item d-flex align-items-center my-1 border border-black" style="border-radius: 10px">
-                                    <div class="ms-2 me-auto">
-                                        <div class="fw-bold">Keluaran</div>
-                                        40 pasal, 1213 ayat
+                                        Pasal 2, Ayat 24
                                     </div>
                                 </li>
                             </a>
@@ -170,54 +173,25 @@
                 </div>
                 
                 <div class="col-sm-9 d-flex flex-column">
-                    <div class="row border border-black" style="border-radius: 10px">
+                    <div class="row border" style="border-radius: 10px">
                         <div class="text p-3">
-                            <h1 style="font-size: 32px;">Favorite</h1>
-                            <p style="font-size: 16px; line-height: 1;">5 Favorites</p>
+                            <h1 style="font-size: 32px;">Kejadian</h1>
+                            <p style="font-size: 16px; line-height: 1;">Perjanjian Lama</p>
                             <div id="scrollProgressBarBackground" style="position: absolute; top: 0; left: 0; width: 0%; height: 10px; background-color: #0000; border-radius: 10px;"></div>
                             <div id="scrollProgressBar" style="width: 0%; height: 10px; background-color: #33D8D8; border-radius:10px"></div>
                         </div>
                     </div>
-                    <div class="row my-2 border border-black" style="border-radius: 10px">
-                        <div class="col-sm-6 p-2">
-                            <h1 style="font-size: 16px">Pasal</h1>
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle w-100 d-flex justify-content-between align-items-center" style="background-color: #33D8D8; border: none;" type="button" id="dropdownMenuButtonNumber" data-bs-toggle="dropdown" aria-expanded="false">
-                                    1 <!-- Default: Angka 1 -->
-                                </button>
-                                <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButtonNumber">
-                                    <!-- Daftar angka di sini -->
-                                    <li><a class="dropdown-item active" href="#" data-value="1">1</a></li>
-                                    <li><a class="dropdown-item" href="#" data-value="2">2</a></li>
-                                    <li><a class="dropdown-item" href="#" data-value="3">3</a></li>
-                                    <li><a class="dropdown-item" href="#" data-value="4">4</a></li>
-                                    <li><a class="dropdown-item" href="#" data-value="5">5</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 p-2">
-                            <h1 style="font-size: 16px">Ayat</h1>
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle w-100 d-flex justify-content-between align-items-center" style="background-color: #33D8D8; border: none;" type="button" id="dropdownMenuButtonNumber" type="button" id="dropdownMenuButtonText" data-bs-toggle="dropdown" aria-expanded="false">
-                                    1<!-- Default: Angka 1 -->
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonText">
-                                    <!-- Daftar angka di sini -->
-                                    <li><a class="dropdown-item active" href="#content1" data-value="1">1</a></li>
-                                    <li><a class="dropdown-item" href="#content2" data-value="2">2</a></li>
-                                    <li><a class="dropdown-item" href="#content3" data-value="3">3</a></li>
-                                    <li><a class="dropdown-item" href="#content4" data-value="4">4</a></li>
-                                    <li><a class="dropdown-item" href="#content5" data-value="5">5</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="row " style="max-height:58vh; overflow-y: auto; padding-right: 10px" id="scrollContainer">
+                    <div class="row my-2" style="max-height:58vh; overflow-y: auto; padding-right: 10px" id="scrollContainer">
                         
-                        <div class="text_kitab p-3 border border-black" style="border-radius: 10px" id="content1"> 
+                        <div class="text_kitab p-3 border" style="border-radius: 10px" id="content1"> 
                             <h1 style="font-size: 32px;">1</h1>
                             <p style="font-size: 16px; line-height: 1.2;">Pada mulanya Allah menciptakan langit dan bumi.</p>
+                            <a href="#" id="heart-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-heart-fill" viewBox="0 0 16 16" >
+                                    <path id="heart-path" fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                                </svg>
+                            </a>
                         </div>
                     
                     </div>
@@ -233,58 +207,8 @@
         </div>
     </section>
 
+    <script src="./main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-    const dropdownItemsNumber = document.querySelectorAll('.dropdown-menu#w-100 .dropdown-item');
-    const dropdownMenuButtonNumber = document.getElementById('dropdownMenuButtonNumber');
-
-            dropdownItemsNumber.forEach(item => {
-                item.addEventListener('click', function() {
-                    // Menghapus kelas active dari semua item dropdown number
-                    dropdownItemsNumber.forEach(item => {
-                        item.classList.remove('active');
-                    });
-                    // Menambahkan kelas active ke item dropdown number yang baru dipilih
-                    this.classList.add('active');
-                    // Memperbarui teks pada tombol toggle dropdown number
-                    const selectedValue = this.getAttribute('data-value');
-                    dropdownMenuButtonNumber.textContent = selectedValue;
-                });
-            });
-
-            const dropdownItemsText = document.querySelectorAll('.dropdown-menu:not(#w-100) .dropdown-item');
-
-            dropdownItemsText.forEach(item => {
-                item.addEventListener('click', function() {
-                    // Menghapus kelas active dari semua item dropdown text
-                    dropdownItemsText.forEach(item => {
-                        item.classList.remove('active');
-                    });
-                    // Menambahkan kelas active ke item dropdown text yang baru dipilih
-                    this.classList.add('active');
-                    // Memperbarui teks pada tombol toggle dropdown text
-                    const selectedValue = this.getAttribute('data-value');
-                    this.closest('.dropdown').querySelector('.dropdown-toggle').textContent = selectedValue;
-                });
-            });
-        });
-
-        document.addEventListener("DOMContentLoaded", function() {
-        const scrollContainer = document.getElementById("scrollContainer");
-        const scrollProgressBar = document.getElementById("scrollProgressBar");
-        
-
-        scrollContainer.addEventListener("scroll", function() {
-            const scrollTop = this.scrollTop;
-            const scrollHeight = this.scrollHeight - this.clientHeight;
-            const progress = (scrollTop / scrollHeight) * 100;
-            scrollProgressBar.style.width = progress + "%";
-            scrollProgressBarBackground.style.width = progress + "%";
-            });
-        });
-    </script>
     
 </body>
 </html>

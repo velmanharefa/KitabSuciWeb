@@ -26,6 +26,20 @@
     font-weight: 600;
 }
 
+.nav-link#home-link.active {
+    color: #33D8D8;
+}
+
+/* Warna teks untuk link yang aktif setelah diklik */
+.nav-link.active {
+    color: #33D8D8;
+}
+
+/* Warna teks saat link sedang dihover */
+.nav-link:hover {
+    color: #33D8D8; /* Warna teks yang berubah saat dihover */
+}
+
 .login button{
     background-color: #4DACB2;
     color: #FFFFFF;
@@ -184,4 +198,13 @@
     height: 80px;
     justify-content: center;
     align-items: center;
+}
+
+.list-group-item.active {
+    background-color: #33D8D8;
+    color: white;
+}
+
+#heart-icon {
+    filter: drop-shadow(0 0 0.1rem black); /* Adjust the shadow size as needed */
 }
