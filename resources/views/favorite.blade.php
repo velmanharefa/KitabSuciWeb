@@ -222,9 +222,9 @@
                         <div class="text_kitab p-3 border" style="border-radius: 10px" id="content1"> 
                             <h1 style="font-size: 32px;">1</h1>
                             <p style="font-size: 16px; line-height: 1.2;">Pada mulanya Allah menciptakan langit dan bumi.</p>
-                            <a href="#" id="heart-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-heart-fill" viewBox="0 0 16 16" >
-                                    <path id="heart-path" fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                            <a href="#" class="heart-icon"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-heart-fill heart-path" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
                                 </svg>
                             </a>
                         </div>

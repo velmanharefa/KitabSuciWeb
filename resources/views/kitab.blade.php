@@ -223,67 +223,79 @@
                         <div class="text_kitab p-3 border" style="border-radius: 10px" id="content1"> 
                             <h1 style="font-size: 32px;">1</h1>
                             <p style="font-size: 16px; line-height: 1.2;">Pada mulanya Allah menciptakan langit dan bumi.</p>
-                            <a href="#" id="heart-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-heart-fill" viewBox="0 0 16 16" >
-                                    <path id="heart-path" fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                            <a href="#" class="heart-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-heart-fill heart-path" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
                                 </svg>
                             </a>
                         </div>
                         <div class="text_kitab p-3 my-2 border" style="border-radius: 10px" id="content2">
                             <h1 style="font-size: 32px;">2</h1>
                             <p style="font-size: 16px; line-height: 1.2;">Bumi belum berbentuk dan kosong; gelap gulita menutupi samudera raya, dan Roh Allah melayang-layang di atas permukaan air.</p>
-                            <a href="#" id="heart-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-heart-fill" viewBox="0 0 16 16" >
-                                    <path id="heart-path" fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                            <a href="#" class="heart-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-heart-fill heart-path" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
                                 </svg>
                             </a>
                         </div>
-            
+                        
                         <div class="text_kitab p-3 my-2 border" style="border-radius: 10px" id="content3">
                             <h1 style="font-size: 32px;">3</h1>
                             <p style="font-size: 16px; line-height: 1.2;">Berfirmanlah Allah: "Jadilah terang." Lalu terang itu jadi.</p>
-                            <a href="#" id="heart-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-heart-fill" viewBox="0 0 16 16" >
-                                    <path id="heart-path" fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                            <a href="#" class="heart-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-heart-fill heart-path" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
                                 </svg>
                             </a>
                         </div>
+                                    
                         <div class="text_kitab p-3 my-2 border" style="border-radius: 10px" id="content4">
                             <h1 style="font-size: 32px;">4</h1>
                             <p style="font-size: 16px; line-height: 1.2;">Allah melihat bahwa terang itu baik, lalu dipisahkan-Nyalah terang itu dari gelap.</p>
-                            <a href="#" id="heart-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-heart-fill" viewBox="0 0 16 16" >
-                                    <path id="heart-path" fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                            <a href="#" class="heart-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-heart-fill heart-path" viewBox="0 0 16 16" >
+                                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
                                 </svg>
                             </a>
                         </div>
                         <div class="text_kitab p-3 my-2 border" style="border-radius: 10px" id="content5">
                             <h1 style="font-size: 32px;">5</h1>
                             <p style="font-size: 16px; line-height: 1.2;">Dan Allah menamai terang itu siang, dan gelap itu malam. Jadilah petang dan jadilah pagi, itulah hari pertama.</p>
-                            <a href="#" id="heart-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-heart-fill" viewBox="0 0 16 16" >
-                                    <path id="heart-path" fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                            <a href="#" class="heart-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-heart-fill heart-path" viewBox="0 0 16 16" >
+                                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
                                 </svg>
                             </a>
                         </div>
                         <div class="text_kitab p-3 my-2 border" style="border-radius: 10px">
                             <h1 style="font-size: 32px;">6</h1>
                             <p style="font-size: 16px; line-height: 1.2;">Berfirmanlah Allah: "Jadilah cakrawala di tengah segala air untuk memisahkan air dari air."</p>
-                            <a href="#" id="heart-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-heart-fill" viewBox="0 0 16 16" >
-                                    <path id="heart-path" fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                            <a href="#" class="heart-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-heart-fill heart-path" viewBox="0 0 16 16" >
+                                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
                                 </svg>
                             </a>
                         </div>
                         <div class="text_kitab p-3 my-2 border" style="border-radius: 10px" id="content7">
                             <h1 style="font-size: 32px;">7</h1>
                             <p style="font-size: 16px; line-height: 1.2;">Maka Allah menjadikan cakrawala dan Ia memisahkan air yang ada di bawah cakrawala itu dari air yang ada di atasnya. Dan jadilah demikian.</p>
-                            <a href="#" id="heart-icon">
+                            <a href="#" class="heart-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-heart-fill heart-path" viewBox="0 0 16 16" >
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                                </svg>
+                            </a>
+                        </div>
+            
+                        {{-- <div class="text_kitab p-3 my-2 border" style="border-radius: 10px" id="content3">
+                            <h1 style="font-size: 32px;">3</h1>
+                            <p style="font-size: 16px; line-height: 1.2;">Berfirmanlah Allah: "Jadilah terang." Lalu terang itu jadi.</p>
+                            <a href="#" class="heart-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-heart-fill" viewBox="0 0 16 16" >
                                     <path id="heart-path" fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
                                 </svg>
                             </a>
-                        </div>
+                        </div> --}}
+                        
                     </div>
                 </div>
             </div>

@@ -206,9 +206,10 @@
     color: white;
 }
 
-#heart-icon {
-    filter: drop-shadow(0 0 0.1rem black); /* Adjust the shadow size as needed */
+.heart-icon {
+    filter: drop-shadow(0 0 0.1rem black); /* Menambahkan efek shadow pada ikon hati */
 }
+
 
 .footer-content {
     position: fixed;

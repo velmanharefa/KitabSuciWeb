@@ -104,15 +104,20 @@ listItems.forEach(function(item) {
 });
 
 // Mengubah warna icon favorite
-var heartPath = document.getElementById('heart-path');
+var heartIcons = document.querySelectorAll('.heart-icon');
 
-document.getElementById('heart-icon').addEventListener('click', function() {
-    if (heartPath.getAttribute('fill') === 'red') {
-        heartPath.setAttribute('fill', 'white');
-    } else {
-        heartPath.setAttribute('fill', 'red');
-    }
+heartIcons.forEach(function(heartIcon) {
+    var heartPath = heartIcon.querySelector('.heart-path');
+
+    heartIcon.addEventListener('click', function() {
+        if (heartPath.getAttribute('fill') === 'red') {
+            heartPath.setAttribute('fill', 'white');
+        } else {
+            heartPath.setAttribute('fill', 'red');
+        }
+    });
 });
+
 
 // Account Setting
 var initialValues = {};
