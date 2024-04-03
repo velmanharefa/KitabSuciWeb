@@ -161,3 +161,44 @@ document.getElementById('heart-icon').addEventListener('click', function() {
     }
 });
 
+// account setting
+// Menyimpan nilai-nilai input awal
+var initialValues = {};
+document.querySelectorAll('form input').forEach(function(input) {
+    initialValues[input.id] = input.value;
+});
+
+document.getElementById('editBtn').addEventListener('click', function() {
+    var inputs = document.querySelectorAll('form input');
+    inputs.forEach(function(input) {
+        input.removeAttribute('readonly');
+        // Mengisi kembali nilai input dengan nilai awal
+        input.value = initialValues[input.id];
+    });
+    document.getElementById('saveBtn').style.display = 'block';
+    this.style.display = 'none'; // Menyembunyikan tombol "Edit"
+    document.getElementById('logoutBtn').style.display = 'none'; // Menyembunyikan tombol "Logout"
+});
+
+document.getElementById('saveBtn').addEventListener('click', function(event) {
+    var editBtn = document.getElementById('editBtn');
+    if (!editBtn.classList.contains('clicked')) {
+        event.preventDefault();
+        alert('Harap klik tombol "Edit" terlebih dahulu');
+    } else {
+        var inputs = document.querySelectorAll('form input');
+        inputs.forEach(function(input) {
+            // Menyimpan nilai baru dari input ke dalam initialValues
+            initialValues[input.id] = input.value;
+            // Mengembalikan atribut readonly setelah disimpan
+            input.setAttribute('readonly', true);
+        });
+        document.getElementById('saveBtn').style.display = 'none';
+        editBtn.style.display = 'block'; // Menampilkan kembali tombol "Edit"
+        document.getElementById('logoutBtn').style.display = 'block'; // Menampilkan kembali tombol "Logout"
+    }
+});
+
+document.getElementById('editBtn').addEventListener('click', function() {
+    this.classList.add('clicked');
+});

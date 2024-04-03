@@ -46,7 +46,7 @@
         <div class="container">
             <div class="row">
                 <a href="{{ url('/kitab') }}" style="text-decoration: none;">
-                    <div class="col-sm-12 my-3 d-flex justify-content-center border" style="border-radius:10px; height: 7rem; background-color:#222831; color:#FFFFFF;">
+                    <div class="col-sm-12 my-2 d-flex justify-content-center border" style="border-radius:10px; height: 7rem; background-color:#222831; color:#FFFFFF;">
                         <div class=" d-flex flex-column justify-content-center align-items-center" style="text-align: center;">
                             <h1 class="m-0" style="font-size: 38px; text-align:center">Kristen</h1>
                             <p class="m-0" style="font-size: 20px; line-height: 1; text-align:center"><i>Alkitab</i></p>
