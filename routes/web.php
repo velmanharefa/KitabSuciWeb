@@ -34,9 +34,6 @@ Route::get('/kitab', function () {
 Route::get('/scripture', function () {
     return view('scripture');
 });
-Route::get('/record', function () {
-    return view('record');
-});
 Route::get('/favorite', function () {
     return view('favorite');
 });
